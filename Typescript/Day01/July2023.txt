@@ -1,0 +1,34 @@
+			Welcome To Angular Module 12
+				  Sumit Raokhande
+
+- B.E.Electronics, KBP satara
+- M.Tech Electronics, Walchand College Sangli
+- C-Dac Wimc , Sunbeam pune
+- worked as Mobile Application developer at tivre business solution
+- worked on J2ME,Symbian,Windows Mobile,Reaserach Motion
+- Worked as Android developer at veetron 
+- Live android application prasieo,autohub,garage
+- Worked as JDE Developer of Oracle Product
+- Worked as OpenSDK developer
+- work as angular developer
+- work on google cloud & docker 
+
+
+Introduction=>
+- daily mon to frid 1.15 min avg 
+- sat & sun no any session 
+- according to your avaialbility we can stop the session for that day 
+- u will get a recording but that recording is only view purpose and that recording will present on cloud for 3-4 days after that it is auto deleted from cloud 
+- all codes will available on github except images
+- join sharp on time u take 5 min buffer to join.
+- what i expect fromm you 
+	- U know at least OOPS concept 
+	- basics of html & css 
+- first we will go for Typescript 
+- Then we check out Angular Freamwork
+- total fee is 7000
+	1 installement from toady upto 10 days => 3500
+	2 installement from your 1st installement after 25 days => 3500
+
+
+
