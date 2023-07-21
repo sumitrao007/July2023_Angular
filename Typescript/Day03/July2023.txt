@@ -1,0 +1,38 @@
+Last Lecture
+1 difference between Angular js vs angular 2+
+ same as it is js vs typescript
+	 - it is js based / typescript 
+	 - mvc arch / mvw 
+	 - object based  / oops orientated
+	 - memeory is not effective management / effective management
+	 - spped & performance decrease / increase
+	 - mobile community support not there / mobile community 
+2 what is typescript?
+	- typescript = ecma script +ecma version+additio  features
+	- typescript is supeset of js 
+	adv.
+	1 strong static typing
+	2 compile time error find
+	3 it supports oops concept
+	disadv
+	1 browser doesn't understand => tsc 
+	2 compile time is more 
+3 Vscode Overview
+4 Simple Programe
+	demo1.ts 
+	console.log("...");
+	console.log('...');
+	console.log(`...`);
+	tsc demo1.ts & node demo1.js 
+
+Today Lecture
+1 variable
+2 data type
+3 literal
+4 Type assertion
+5 operator
+6 control statement
+7 loop statement
+8 var Vs let Vs const 
+
+
