@@ -1,0 +1,50 @@
+Last Lecture
+1 variable
+	var a1;
+	
+2 data type
+	number,string,boolean,any,void,null,undefined
+		var a:number=10;
+		var str!:string;
+3 literal
+	var a:number|string;
+	var a:50|boolean 
+4 Type assertion
+	1 angle bracket 
+	var temp=(<string>a)
+	2 as syntax
+	var temp=(a as string );
+	
+5 operator
+	=== strongly equality => it checks value as well as data type 
+6 control statement
+	if(a<4){
+	}else{
+	
+	}
+	
+7 loop statement
+	while(count!=0){
+		....
+	}
+	
+	for(var i=0;i<4;i++){
+	...
+	}
+	var => global scope
+	let => within nearest block 
+	const => global as well as local scope 
+	for(let i=0;i<4;i++){
+	...
+	}
+	
+8 var Vs let Vs const 
+
+Today Lecture
+1 Functions Type 
+2 Anonymous Functions
+3 fat arrow functions
+4 optional parameter functions
+5 default parameter functions
+
+
