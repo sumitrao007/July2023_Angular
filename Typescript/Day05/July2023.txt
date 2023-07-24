@@ -1,0 +1,60 @@
+Last Lecture
+1 Functions Type
+	function add1(){
+		console.log("...")
+	}
+	add1();
+	function add1(a:number,b:number){
+		console.log("...")
+	}
+	add2(10,2)
+	
+	function add1():number{
+		return (8+8)
+	}
+	
+	function add1(a:number,b:number):number{
+		return (a+b)
+	}
+	
+	add1(10,2)
+	
+2 Anonymous Functions
+	let temp=function (){
+		....
+	}
+	temp();
+	
+	let temp1=function (a:number,b:number):number{
+		return (a+b)
+	}
+	let res=temp1(10,2);
+3 fat arrow functions
+	let temp2=(a:number,b:number):number=>{
+		return (a+b)
+	}
+	let res=temp2(10,2);
+4 optional parameter functions
+	function add1(a?:number,b?:number)
+	{
+	...
+	}
+5 default parameter functions
+	
+		function add1(a:number=30,b?:number){
+			...
+			
+		}
+		
+		add1(5,45);
+		
+
+Today Lecture
+1 Basics of array 
+2 Join
+3 for each
+4 Rest parameter functions
+5 push & pop
+
+
+
