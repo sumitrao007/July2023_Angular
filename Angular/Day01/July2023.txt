@@ -1,0 +1,78 @@
+Last Lecture
+1 inheritance
+	single.multilevel,hirachical
+		export class Shape{
+			Myarea(){
+			...
+			}
+		}
+		
+		....
+		export class Circle extends Shape{
+			radius:number;
+			area:number;
+			constructor(r:number){
+				super();
+				...
+			}
+			override Myarea(){
+				this.area=...
+			}
+			display(){
+				...
+			}
+		}
+		...rectangle 
+		
+		let obj=new Circle(2);
+		obj.Myarea();
+		obj.display();
+		...
+		
+2 method override
+3 interface
+	export interface Employee{
+		fname:string;
+		...
+		fullname?:string;
+		display();
+	}
+	
+	export class EmployeeDetails implements Employee{
+		fname:string;
+		...
+		salary:number;
+		dept:Department;
+		
+		constructor(f:string,...,..){
+			this.dept=new Department(role)
+		}
+		display(){
+			.....
+			this.dept.getRole()	
+		}
+	}
+	
+	let obj=new EmployeeDetails(...,'Devops')
+	obj.display();
+	
+	export class Department{
+		private role:string;
+		....
+		setRole(r:string){
+			this.role=r;
+			
+		}
+		...
+		
+	}
+4 has relatinship
+
+Today Lecture
+1 S/W Installation
+
+	
+
+
+
+
