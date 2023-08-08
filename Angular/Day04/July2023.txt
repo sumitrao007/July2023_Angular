@@ -1,0 +1,63 @@
+Last Lecture
+1 Create component manually
+	employee.component.ts
+		@Component({
+			selector:'app-employee',
+			templateUrl:'./employee.component.html',
+			StyleUrls:['./employee.component.css']
+		})
+		export class EmployeeComponent{
+		
+		}
+		
+		app.module.ts
+		declaration:[
+		EmployeeComponent
+		]
+	employee.component.html
+		...
+	employee.component.css
+	
+	app.component.html
+	<app-employee>
+	
+2 create component through cli 
+	ng g c student 
+	
+	employee.component.html
+	<app-student>
+	
+3 data binding
+	- data flow from component file to view file 
+	1 string interpolation
+	2 Property Binding
+	3 Style binding
+	4 class Binding
+4 string interpolation
+	<h1> {{name}}</h1>
+	<h1> {{"Welcome "+name}}</h1>
+	<h1> {{num+num}}</h1>
+	<img src=" {{imgUrl}} ">
+	<h1> {{getName()}}</h1>
+	
+	.ts 
+	name:string='Sumit';
+	num:number=4;
+	imgUrl:string='../../assets/bg9.png'
+	
+	getName(){
+	return this.name
+	}
+
+Today Lecture
+1 Property Binding
+2 string interpolation VS Property Binding
+3 Style binding
+
+	
+
+	
+
+
+
+
