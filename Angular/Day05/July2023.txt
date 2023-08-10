@@ -1,0 +1,44 @@
+Last Lecture
+1 Property Binding
+	<input [value]="name">
+	<img [src]="imgUrl">
+	.ts file 
+	name:string='...';
+	imgUrl="...."
+	
+2 string interpolation VS Property Binding
+
+	<div hidden=" {{isHidden}} ">
+	hjjhsdb
+	</div>
+	
+	<div [hidden]="isHidden">
+	hjjhsdb
+	</div>
+	
+	.ts file
+	isHidden:boolean=false;
+3 Style binding
+	<h1 [style.color]="mycolor">
+	<h1 [style.color]="rating<4?'red':'orange'">
+	<h1 [ngStyle]="jsonObj">
+	
+	.ts file 
+	mycolor:string='red';
+	rating:number=2;
+	jsonObj={
+		color:'red',
+		fontSize:'32px',
+		'font-family':...
+		}
+
+Today Lecture
+1 Class Binding
+
+	
+
+	
+
+
+
+
