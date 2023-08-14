@@ -1,0 +1,34 @@
+Last Lectue
+1 Class Binding
+	
+	<h1 [class]="myclass"> ...</h1>
+	<h1 [class.danger]="rating<4" 
+	[class.warning]="rating>4" > ...</h1>
+	
+	<div [ngClass]="json">
+	...
+	
+	.ts 
+	myclass:string='success';
+	rating:number=2;
+	isError:boolean=true;
+	isSpecial:boolean=true;
+	json={
+		'success':!this.isError,
+		'danger' : this.isError,
+		'special' : this.isSpecial
+	}
+
+Today Lecture
+1 Event Binding
+	- data flow from view file to component file 
+2 Click event
+3 $event
+
+	
+
+	
+
+
+
+
