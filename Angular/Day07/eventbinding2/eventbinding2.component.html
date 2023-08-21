@@ -1,0 +1,24 @@
+<p>eventbinding2 works!</p>
+
+<!-- template ref varriable 
+    - It also gives dom element information
+    - It holds the object or handle of that dom element 
+    - u can manipulate the behaviour of dom element as well as data 
+    - If u want to apply use # symbol 
+    - u can apply anu html tag 
+-->
+
+<input #inputname type="text" placeholder="Enter the Name "><br><br>
+<button (click)="onSend(inputname)" >Send</button>
+<br><br>
+
+<input #inputname1 type="text" placeholder="Enter the Name "><br><br>
+<button (click)="onSend1(inputname1.value)" >Send</button>
+<hr>
+
+<input #num1 type="text" placeholder="Enter the Number1"><br><br>
+<input #num2 type="text" placeholder="Enter the Number2"><br><br>
+<button (click)="onAddition(num1.value,num2.value)" >Addition</button><br><br>
+<input type="text" [value]="result" placeholder="Result"><br><br>
+<hr>
+<input #inpudata type="text" (change)="onChange(inpudata.value)" placeholder="Enter the name ">
