@@ -1,0 +1,51 @@
+Last Lectue
+1 template ref variable
+	<input #inputname>
+	<button (click)="onClick(inputname.value)">
+	
+	.ts 
+	
+	onClick(myname:any){
+		...
+		console.log(myname.value);
+		myname.style.background='green';
+		myname.style.color='white';
+	}
+2 Real Time example
+	<input #num1>
+	<input #num2>
+	<button (click)="onAddition(num1.value,num2.value)">
+	<input [value]="result">
+	.ts 
+	
+	onAddition(num1:any,num2:any){
+		let n1=+num1;
+		...
+		this.result=n1+n2;
+	}
+	
+	
+3 Change event
+	<input (change)="onChange()">
+	
+	.ts file 
+	onChange(){
+	....
+	}
+
+Today Lecture
+1 keyboard event
+	1 keyup
+	2 keydown
+	=> event flitering 
+2 event binding without event handler
+3 Two way data binding
+
+
+	
+
+	
+
+
+
+

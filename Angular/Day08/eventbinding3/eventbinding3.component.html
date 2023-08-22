@@ -1,0 +1,26 @@
+<p>eventbinding3 works!</p>
+
+<input type="text" (keyup)="onKeyUp()" placeholder="Key up event Occur.."><br><br>
+<input type="text" (keydown)="onKeydown()" placeholder="Key down event Occur..">
+<hr>
+<input type="text" (keyup.enter)="onEnter()" placeholder="Enter key Pressed">
+
+<!-- event binding without event handler
+    - when u have to perform one line logic 
+    - create property => data store 
+-->
+<br><br>
+<button (click)="result=8+8" >Addition</button>
+{{result}}
+<hr>
+<!-- Two way data binding
+        - ngModel
+    - to get updated data 
+    - u can apply any html tag 
+    - u have import FormsModule in app.module.ts file 
+    - it is used banana in the box notation 
+    - It is attribute directive
+    - [(ngmodel)]="propertyname"
+-->
+<input type="text" [(ngModel)]="name" 
+placeholder="Enter the Name "> {{name}}
