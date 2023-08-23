@@ -1,0 +1,39 @@
+Last Lectue
+1 keyboard event
+	1 keyup
+		<input (keyup)="onKeyup()">
+		.ts 
+		onKeyup(){
+		....
+		}
+	2 keydown
+	<input (keydown)="onKeydown()">
+	=> event flitering 
+		<input (keyup.enter)="onKeyup()">
+2 event binding without event handler	
+	<button (click)="result=8+8">
+	{{result}}
+3 Two way data binding
+	<input [(ngModel)]="name">{{name}}
+	
+	app.module.ts 
+	imports:[FromsModule]
+
+Today Lecture
+1 structural directive
+	- u can upadate or manipulate/show Or hide the dom element
+	1 *ngIf => to check condition 
+	2 *ngFor => u if u want iterate dynamic data then we go for *ngFor 
+	3 *ngSwitch => to execute a specific condition 
+	
+2 *ngIf directive
+3 *ngFor directive
+
+
+	
+
+	
+
+
+
+
