@@ -1,0 +1,39 @@
+Last Lectue
+1 structural directive
+	- u can upadate or manipulate/show Or hide the dom element
+	1 *ngIf => to check condition 
+	2 *ngFor => u if u want iterate dynamic data then we go for *ngFor 
+	3 *ngSwitch => to execute a specific condition 
+	
+2 *ngIf directive
+	<div *ngIf="rating<4;else elsepart">
+		....
+	</div>
+	
+	<ng-template #elsepart>
+		
+	</ng-template>
+	
+3 *ngFor directive
+	.ts 
+	course:string[]=[....];
+	
+	.html 
+	<ul>
+		<li *ngFor="let item of course ;index as i"> {{item}}</li>
+
+Today Lecture
+1 *ngFor continue
+2 Mouse event
+	1 mouseover
+	2 mouseout 
+3 *ngSwitch
+
+
+	
+
+	
+
+
+
+
