@@ -1,0 +1,22 @@
+Last Lectue
+1 *ngFor continue
+2 Mouse event
+	1 mouseover
+	2 mouseout 
+3 *ngSwitch
+
+Today Lecture
+1 Component interaction
+	- to send data from one component to another component
+	- To establish the parent - child relationship
+2 @Input() => to send data(string/number/json/array,array of object/custom object) from parent to child 
+
+
+
+	
+
+	
+
+
+
+
