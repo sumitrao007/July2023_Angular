@@ -1,0 +1,18 @@
+Last Lectue
+1  Component interaction
+	- to send data from one component to another component
+	- To establish the parent - child relationship
+2 @Input() => to send data(string/number/json/array,array of object/custom object) from parent to child 
+
+Today Lecture
+1 @Output()=> to send data from child component to parent component
+
+
+
+	
+
+	
+
+
+
+

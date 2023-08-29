@@ -1,0 +1,8 @@
+<p>child2 works!</p>
+<button (click)="onSend()">Send Data</button>
+<hr>
+<input #inputmsg type="text" placeholder="Enter the Message"><br><br>
+<button (click)="onSendMsg(inputmsg.value)" >Send</button>
+<hr>
+<input type="date" #inputdate> <br><br>
+<button (click)="onSendDate(inputdate.value)">Send Date</button>
