@@ -1,0 +1,21 @@
+<p>parent2 works!</p>
+
+<div #divElement>
+    Div html element....
+</div>
+<hr>
+
+<div class="maindiv">
+    <div class="btnDiv">
+        <button (click)="onAccessproperty()" >Access Property</button>
+        <button (click)="onAccessMethod()" >Access Method</button>
+        <br><br>
+
+        <button (click)="onIncrement()" >Increment</button>
+        <button (click)="onDecrement()" >decrement</button>
+    </div>
+    <div class="childDive">
+        <app-child3></app-child3>
+    </div>
+</div>
+

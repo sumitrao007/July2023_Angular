@@ -1,0 +1,17 @@
+.divClass{
+    background:linear-gradient(45deg,red,green,blue,yellow,grey,white,magenta,cyan,orange);
+    font-size: 32px;
+    width: 350px;
+}
+
+.maindiv{
+    display: flex;
+    margin: 10px;
+    column-gap: 12em;
+}
+
+.btnDiv button{
+    margin: 10px;
+    padding: 8px;
+    border-radius: 8px;
+}
