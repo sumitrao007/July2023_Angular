@@ -1,0 +1,14 @@
+Last Lectue
+1 @ViewChild
+	1 if u want access parent html element in ur parent.ts file 
+	2 if u want access child property or child method in ur parent component
+
+Today Lecture
+1 Inbuilt Pipe
+	- it transform ur data without changing its original value 
+	- pipe is apply on property 
+	- syntax => {{propertyName | pipename}}	
+
+
+
+
