@@ -1,0 +1,36 @@
+Last Lectue
+1 Inbuilt Pipe
+	- it transform ur data without changing its original value 
+	- pipe is apply on property 
+	- syntax => {{propertyName | pipename}}	
+	
+	<h2> {{strdetails |lowercase }}</h2>
+	<h2> {{strdetails |uppercase }}</h2>
+	<h2> {{strdetails |titlecase }}</h2>
+	<h2> {{strdetails |slice:1:5 }}</h2>
+	<h2> {{0.25 |percent }}</h2>
+	<h2> {{0.025 |percent:'1.1' }}</h2>
+	
+	<h2> {{0.25 | currency}}</h2>
+	<h2> {{0.25 | currency:'INR'}}</h2>
+	<h2> {{0.25 | currency:'INR':'code'}}</h2>
+	
+	<h2> {{5.6784563 | number:'1.2-3'}}</h2>
+	<h2> {{5.6785563 | number:'1.2-3'}}</h2>
+	
+	<h2> {{mydate | date:'mediumDate'}}</h2>
+	<h2> {{mydate | date:'dd-MM-yyyy'}}</h2>
+	<h2> {{mydate | date:'longDate'|uppercase}}</h2>
+	<h2> {{mydate | date:'hh:mm:ss a'}}</h2>
+	
+
+Today Lecture
+1 Custom Pipe 
+2 Pure pipe 
+3 Impure Pipe 
+4 PipeTransform
+5 transform
+
+
+
+
