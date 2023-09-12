@@ -1,0 +1,21 @@
+Last Lectue
+1 Custom Pipe 
+2 Pure pipe 
+3 Impure Pipe 
+4 PipeTransform
+5 transform
+
+Today Lecture
+1 Service
+	- It is simple class 
+	- It is used to write a Business Logic 
+	- It is used code resualbility
+	- It is used for code maintability 
+	- It is used to provide isolation to our component from http end point url 
+	- It is used to connect ur backend server 
+2 Dependancy Injection
+
+
+
+
+
