@@ -1,0 +1,97 @@
+Last Lectue
+1 Service
+	- It is simple class 
+	- It is used to write a Business Logic 
+	- It is used code resualbility
+	- It is used for code maintability 
+	- It is used to provide isolation to our component from http end point url 
+	- It is used to connect ur backend server 
+	
+	export class CourseService{
+		
+		private course:string[]=[...];
+		
+		getCourse(){
+			return this.course;
+		}
+		
+	}
+	
+	course.ts
+	
+	constructor(private service:CourseService){
+	//let service=new CourseService();
+	
+	}
+	onInit(){
+		this.mycourse=this.service.getCourse();
+	}
+	
+2 Dependancy Injection
+
+Today Lecture
+1 Http Methods
+	1 get => it get/fetch data from backend server 
+	2 post => it send a data to backend server 
+	3 put => it update the particular data 
+	4 delete => it delete a particular data 
+	
+2 HttpClient Module
+	
+	HttpRequest/Response 
+	
+	it has 2 part 
+	
+	1 Http Header
+		-ip
+		- date 
+		- content Type 
+			- pdf
+			- image
+			- text/html
+			- xml
+			- other
+		- Auth
+		- method name 
+	2 Http body 
+		Http data 
+			- json/ xml / text 
+			
+	Http Response 
+		
+		1 Http Header
+		-ip
+		- date 
+		- content Type 
+			- pdf
+			- image
+			- text/html
+			- xml
+			- other
+		- Auth
+		- method name 
+		- status 
+			1 200-299 => success, ok 
+			2 300-399 => redirection
+			3 400-499 => client side error => resourse not found 
+			4 500-599=> Server side error 
+	2 Http body 
+		Http data 
+			- json/ xml / text 
+	
+	
+3 https://jsonplaceholder.typicode.com/posts
+
+	- it is a fake service 
+	- bcz it can not store/update/delete the data from your data base but it gives a proper response 
+	
+	
+
+
+4 @Injectable
+5 Observable
+
+
+
+
+
