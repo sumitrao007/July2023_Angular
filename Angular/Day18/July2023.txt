@@ -1,0 +1,69 @@
+Last Lectue
+1 Http Methods
+	1 get => it get/fetch data from backend server 
+	2 post => it send a data to backend server 
+	3 put => it update the particular data 
+	4 delete => it delete a particular data 
+	
+2 HttpClient Module
+	
+	HttpRequest/Response 
+	
+	it has 2 part 
+	
+	1 Http Header
+		-ip
+		- date 
+		- content Type 
+			- pdf
+			- image
+			- text/html
+			- xml
+			- other
+		- Auth
+		- method name 
+	2 Http body 
+		Http data 
+			- json/ xml / text 
+			
+	Http Response 
+		
+		1 Http Header
+		-ip
+		- date 
+		- content Type 
+			- pdf
+			- image
+			- text/html
+			- xml
+			- other
+		- Auth
+		- method name 
+		- status 
+			1 200-299 => success, ok 
+			2 300-399 => redirection
+			3 400-499 => client side error => resourse not found 
+			4 500-599=> Server side error 
+	2 Http body 
+		Http data 
+			- json/ xml / text 
+	
+	
+3 https://jsonplaceholder.typicode.com/posts
+
+	- it is a fake service 
+	- bcz it can not store/update/delete the data from your data base but it gives a proper response 
+
+4 @Injectable
+5 Observable
+
+Today Lecture
+1 post
+2 put 
+3 delete 
+4 handle error 
+
+
+
+
+

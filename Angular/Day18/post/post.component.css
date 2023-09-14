@@ -1,0 +1,8 @@
+tr,th,td{
+    border: 1px solid;
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+}
