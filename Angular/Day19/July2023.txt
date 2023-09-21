@@ -1,0 +1,22 @@
+Last Lectue
+1 post
+2 put 
+3 delete 
+4 handle error 
+
+Today Lecture
+1 Routing 
+	- it is used to navigate from one comoponent to another comoponent
+2 Routing steps
+	1 Configure Route 
+	2 use <router-outlet>
+	3 establish the link=> routerLink/navigate()  between the comoponent
+3 empty path
+4 wild cart operator
+5 send parameter
+
+
+
+
+
+
