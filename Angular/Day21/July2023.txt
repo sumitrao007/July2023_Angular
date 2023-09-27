@@ -1,0 +1,22 @@
+Last Lectue
+1 send parameter
+2 query parameter
+3 dynamic routing
+	- navigate
+	- router DI 
+	
+4 child routes
+
+Today Lecture
+1 Lazy Loading
+	- pre -requiest 
+	create ur own module 
+	create ur own routing file 
+2 Modifide the Routing
+
+
+
+
+
+
+
