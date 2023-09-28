@@ -1,0 +1,20 @@
+Last Lectue
+1 Lazy Loading
+	- pre -requiest 
+	create ur own module 
+	create ur own routing file 
+	ng g m user --routing 
+	
+2 Modifide the Routing
+
+Today Lecture
+1 Use Rx Jx Lib
+2 Subject
+3 BehaviorSubject
+
+
+
+
+
+
+
