@@ -1,0 +1,24 @@
+Last Lectue
+1 Use Rx Jx Lib
+2 Subject
+3 BehaviorSubject
+
+Today Lecture
+1 Bootstrap Overview
+	- It is css freamwork
+	- it gives template code 
+	- makes ur application attractive
+	- makes application responsive
+	
+2 Integration of bootstrap
+	1 online intergartion	
+		CDN 
+	2 offline intergartion
+3 basic grid system
+
+
+
+
+
+
+

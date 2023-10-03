@@ -1,0 +1,23 @@
+<p>home works!</p>
+
+<a routerLink="">page1</a>
+<a [routerLink]="['/Page2',myid]">page2</a>
+<a [routerLink]="['/Page3',myid,myusername]">page3</a>
+<a routerLink="/Follower">Follower</a>
+<a routerLink="/QueryParameter" [queryParams]="jsonObj" >QueryParameter</a>
+<hr>
+<button (click)="onPage1()" >Page1</button>
+<button (click)="onPage2()" >Page2</button>
+<button (click)="onPage3()" >Page3</button>
+<button (click)="onFollower()" >Follower</button>
+<button (click)="onQueryparameter()" >QueryParameter</button>
+<hr>
+<a routerLink="/product">Product</a>
+<hr>
+
+<a routerLink="/user">User</a>
+<br><br>
+<a routerLink="/demobootstrap">Demo Bootstrap</a>
+
+<hr>
+<router-outlet></router-outlet>
