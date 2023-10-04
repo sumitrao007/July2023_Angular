@@ -1,0 +1,19 @@
+<p>login works!</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="form-group">
+                <label for="">Email Id::</label>
+                <input #email type="text" class="form-control" placeholder="Enter the Email Id">
+                <label for="">Password::</label>
+                <input #password type="password" class="form-control" placeholder="Enter the Password">
+                <br>
+                <button (click)="onLogin(email.value,password.value)"  class="btn btn-success">Login</button>
+                <br><br>
+                <span> {{backendResponse}} </span>
+            </div>
+        </div>
+    </div>
+
+</div>

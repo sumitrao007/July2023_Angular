@@ -1,0 +1,25 @@
+Last Lectue
+1 Bootstrap Overview
+	- It is css freamwork
+	- it gives template code 
+	- makes ur application attractive
+	- makes application responsive
+	
+2 Integration of bootstrap
+	1 online intergartion	
+		CDN 
+	2 offline intergartion
+	npm install --save bootstrap@4.6.*
+3 basic grid system
+
+Today Lecture
+1 How to use auth guard
+2 Authenthication in Angular
+
+
+
+
+
+
+
+
