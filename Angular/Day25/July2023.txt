@@ -1,0 +1,36 @@
+Last Lectue
+1 How to use auth guard
+2 Authenthication in Angular
+
+Today Lecture
+1 Tempalte driven Form
+	- Simple validation to be performed 
+	- login,signup,F/B form 
+	- validation is done on View file 
+2 FormControl
+	- It is class 
+	- It has its own property 
+	
+	1 valid => true
+	2 invalid => true 
+	3 touched => true 
+	4 pristine => true 
+	5 dirty => true
+	6 errors => It is object => on the basis that object we call the html attribute 
+	
+	Steps
+	1 To create FormControl instance => use ngModel attribute directive without banana in the box noatation & then u have to use name attribute 
+	2 create template ref variable & assign ngModel to it.
+    3 if u want errors validation then u have to use required attribute	
+		
+	
+3 ngForm
+4 Json pipe
+
+
+
+
+
+
+
+
